@@ -44,48 +44,48 @@ layers:
   - {t: ␣, h: '1'}
   - Meh+ Alt
   '1':
-  - Sft+ ~
+  - '~'
   - '`'
-  - Sft+ *
-  - Sft+ +
-  - 'Sft+ #'
-  - Ctrl
+  - '#'
+  - +
+  - _
+  - LEFT CONTROL
   - Ctrl
   - '['
   - ']'
   - \
   - Sft+ |
-  - {t: ▽, type: trans}
-  - Sft+ $
-  - Sft+ !
-  - Sft+ _
+  - ''
+  - $
+  - '!'
+  - '*'
   - '='
   - '-'
   - Gui
   - Gui
   - Sft+ (
   - Sft+ )
-  - {t: ▽, type: trans}
+  - ''
   - ''''
   - Sft+ "
-  - {t: ▽, type: trans}
+  - ''
   - '@'
-  - Sft+ %
-  - Sft+ ^
-  - Sft+ AMPS
+  - '%'
+  - ^
+  - AMPS
   - Alt
   - Alt
   - Sft+ {
   - Sft+ }
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
+  - ''
   '2':
   - Ctrl
   - Home
@@ -93,7 +93,7 @@ layers:
   - ↑
   - Tab Right
   - PAGE UP
-  - {t: ▽, type: trans}
+  - ''
   - '7'
   - '8'
   - '0'
@@ -112,39 +112,39 @@ layers:
   - CAPSLOCK
   - Gui
   - Alt
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - Ctl+ ←
   - Ctl+ →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
+  - ''
   - Alt
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   '3':
   - BT CLR ALL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - Page Up
   - Tab Left
   - ↑
   - Tab Right
   - Home
-  - {t: ▽, type: trans}
+  - ''
   - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - VOLUME DOWN
   - VOLUME UP
   - MUTE
@@ -153,22 +153,22 @@ layers:
   - ↓
   - →
   - End
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
   - BRIGHTNESS DEC
   - BRIGHTNESS INC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - Ctl+ ←
   - Ctl+ →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
