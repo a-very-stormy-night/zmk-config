@@ -21,7 +21,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB       &kp Q  &kp W  &mt LEFT_GUI F            &kp P                      &mt LEFT_ALT B    &kp J            &kp L        &kp U                 &kp Y    &kp SEMICOLON  &soft_off
+&kp TAB       &kp Q  &kp W  &mt LEFT_GUI F            &kp P                      &mt LEFT_ALT B    &kp J            &kp L        &kp U                 &kp Y    &kp SEMICOLON  &out OUT_TOG
 &out OUT_TOG  &kp A  &kp R  &kp S                     &mt LEFT_SHIFT T           &kp G             &kp M            &kp N        &kp E                 &kp I    &kp O          &kp SQT
 &bt BT_PRV    &kp Z  &kp X  &kp C                     &kp D                      &kp V             &kp K            &kp H        &kp COMMA             &kp DOT  &kp FSLH       &bt BT_NXT
                             &kp LS(LA(LC(LG(LGUI))))  &mt LEFT_CONTROL KP_ENTER  &lt 2 ESCAPE      &lt 3 BACKSPACE  &lt 1 SPACE  &kp LS(LC(LA(RALT)))

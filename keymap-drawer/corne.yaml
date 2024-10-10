@@ -1,89 +1,174 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  default: [↹, Q, W, E, R, T, Y, U, I, O, P, ⌫, Ctrl, A, S, D, F, G, H, J, K, L, ;, '''', Shift, Z, X, C, V, B, N, M, ',', ., /, Esc, Gui, lower, ␣, ⏎, raise, Alt]
-  lower:
+  default:
   - ↹
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - ⌫
-  - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
-  - ←
-  - ↓
-  - ↑
-  - →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Shift
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui
-  - {type: held}
-  - ␣
-  - ⏎
-  - {t: ▽, type: trans}
-  - Alt
-  raise:
-  - ↹
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - AMPS
-  - KP MULTIPLY
-  - (
-  - )
-  - ⌫
+  - Q
+  - W
+  - {t: F, h: LEFT GUI}
+  - P
+  - {t: B, h: LEFT ALT}
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - OUT TOG
+  - OUT TOG
+  - A
+  - R
+  - S
+  - {t: T, h: LEFT SHIFT}
+  - G
+  - M
+  - N
+  - E
+  - I
+  - O
+  - ''''
+  - BT PRV
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - BT NXT
+  - Hyper+ Gui
+  - {t: KP ENTER, h: LEFT CONTROL}
+  - {t: ESCAPE, h: '2'}
+  - {t: BACKSPACE, h: '3'}
+  - {t: ␣, h: '1'}
+  - Meh+ Alt
+  '1':
+  - Sft+ ~
+  - '`'
+  - Sft+ *
+  - Sft+ +
+  - 'Sft+ #'
   - Ctrl
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - {t: ▽, type: trans}
-  - '&mkp RCLK'
-  - '-'
-  - '='
+  - Ctrl
   - '['
   - ']'
   - \
-  - '`'
-  - Shift
+  - Sft+ |
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - _
-  - +
-  - '{'
-  - '}'
-  - '|'
-  - '~'
+  - Sft+ $
+  - Sft+ !
+  - Sft+ _
+  - '='
+  - '-'
   - Gui
+  - Gui
+  - Sft+ (
+  - Sft+ )
   - {t: ▽, type: trans}
-  - ␣
-  - ⏎
-  - {type: held}
+  - ''''
+  - Sft+ "
+  - {t: ▽, type: trans}
+  - '@'
+  - Sft+ %
+  - Sft+ ^
+  - Sft+ AMPS
   - Alt
+  - Alt
+  - Sft+ {
+  - Sft+ }
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  '2':
+  - Ctrl
+  - Home
+  - Tab Left
+  - ↑
+  - Tab Right
+  - PAGE UP
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '0'
+  - LOCKING NUM
+  - Ctrl
+  - Gui
+  - End
+  - ←
+  - ↓
+  - →
+  - PAGE DOWN
+  - '0'
+  - '4'
+  - '5'
+  - '6'
+  - CAPSLOCK
+  - Gui
+  - Alt
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+ ←
+  - Ctl+ →
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - Alt
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '3':
+  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Page Up
+  - Tab Left
+  - ↑
+  - Tab Right
+  - Home
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOLUME DOWN
+  - VOLUME UP
+  - MUTE
+  - Page Down
+  - ←
+  - ↓
+  - →
+  - End
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+ ←
+  - Ctl+ →
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
