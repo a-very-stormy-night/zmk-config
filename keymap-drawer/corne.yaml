@@ -7,9 +7,9 @@ layers:
   - {t: F, h: LEFT GUI}
   - P
   - {t: B, h: LEFT ALT}
-  - J
+  - {t: J, h: LEFT ALT}
   - L
-  - U
+  - {t: U, h: LEFT GUI}
   - Y
   - ;
   - OUT TOG
@@ -20,7 +20,7 @@ layers:
   - {t: T, h: LEFT SHIFT}
   - G
   - M
-  - N
+  - {t: N, h: LEFT SHIFT}
   - E
   - I
   - O
