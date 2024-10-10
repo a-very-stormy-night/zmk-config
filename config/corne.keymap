@@ -9,6 +9,18 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 
+&mt {
+    flavor = "tap-preferred";
+    hold-while-undecided;
+    quick-tap-ms = <100>;
+};
+
+&lt {
+    quick-tap-ms = <100>;
+    flavor = "tap-preferred";
+    hold-while-undecided;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
